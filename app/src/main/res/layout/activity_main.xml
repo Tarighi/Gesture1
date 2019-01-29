@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/MyLinearLayoutStyle"
+       >
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:text="JAN" />
+
+        <ImageView
+            style="@style/MyImageViewStyle"
+            android:src="@drawable/january" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/MyLinearLayoutStyle">
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:text="Feb" />
+
+        <ImageView
+            style="@style/MyImageViewStyle"
+            android:src="@drawable/february" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/MyLinearLayoutStyle">
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:text="MAR" />
+
+        <ImageView
+            style="@style/MyImageViewStyle"
+            android:src="@drawable/march" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/MyLinearLayoutStyle">
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:text="APR" />
+
+        <ImageView
+            style="@style/MyImageViewStyle"
+            android:src="@drawable/april" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/MyLinearLayoutStyle">
+
+        <TextView
+            style="@style/MyTextViewStyle"
+            android:text="MAY" />
+
+        <ImageView
+            style="@style/MyImageViewStyle"
+            android:src="@drawable/may" />
+    </LinearLayout>
+
+</LinearLayout>
